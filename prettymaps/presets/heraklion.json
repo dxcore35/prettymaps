@@ -1,0 +1,65 @@
+{
+  "layers": {
+    "perimeter": {
+      "circle": false
+    },
+    "streets": {
+      "width": {
+        "primary": 5,
+        "secondary": 4,
+        "tertiary": 3,
+        "residential": 2
+      }
+    },
+    "building": {
+      "tags": {
+        "building": true
+      }
+    },
+    "green": {
+      "tags": {
+        "landuse": [
+          "grass",
+          "village_green"
+        ],
+        "leisure": "park"
+      }
+    },
+    "water": {
+      "tags": {
+        "natural": [
+          "water",
+          "bay"
+        ]
+      }
+    },
+    "sea": {}
+  },
+  "style": {
+    "background": {
+      "fc": "#f5e6c8",
+      "ec": "#e8d4a8"
+    },
+    "streets": {
+      "fc": "#d4b896",
+      "ec": "#c4a070",
+      "lw": 1
+    },
+    "building": {
+      "fc": "#c8a87a",
+      "ec": "#a08050"
+    },
+    "green": {
+      "fc": "#8bb56a",
+      "ec": "#5a8040"
+    },
+    "water": {
+      "fc": "#7ab8d4",
+      "ec": "#5a90b0"
+    },
+    "sea": {
+      "fc": "#5a9ec4",
+      "ec": "#4a80a8"
+    }
+  }
+}
