@@ -1,0 +1,52 @@
+{
+  "layers": {
+    "perimeter": {
+      "circle": true
+    },
+    "streets": {
+      "width": {
+        "primary": 4,
+        "secondary": 3,
+        "tertiary": 2.5,
+        "residential": 2
+      }
+    },
+    "building": {
+      "tags": {
+        "building": true
+      }
+    },
+    "water": {
+      "tags": {
+        "natural": [
+          "water",
+          "bay"
+        ]
+      }
+    },
+    "sea": {}
+  },
+  "style": {
+    "background": {
+      "fc": "#e8f0f8",
+      "ec": "#c0d4e8"
+    },
+    "streets": {
+      "fc": "#ffffff",
+      "ec": "#d0e0f0",
+      "lw": 1
+    },
+    "building": {
+      "fc": "#ffffff",
+      "ec": "#c0d0e0"
+    },
+    "water": {
+      "fc": "#2e6fc0",
+      "ec": "#1a50a0"
+    },
+    "sea": {
+      "fc": "#0e4fa8",
+      "ec": "#0a3a80"
+    }
+  }
+}
